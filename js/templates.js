@@ -10,7 +10,7 @@ const home = `
   <h2><u>Routing nativo usando Web Components</u></h2>
   <p>
     Esta aplicación utiliza  <a href="https://developer.mozilla.org/es/docs/Web/API/Web_components" target="_blank">Web Components</a>
-    para generar un ruteo en forma nativa, es decir, sin frameworks.
+    para generar un ruteo de tipo SPA (Single Page App) en forma nativa, es decir, sin frameworks.
     <br><br>
     El código HTML resultante es muy similar al utilizado por
     <a href="https://router.vuejs.org/guide/#html" target="_blank">Vue Router</a>:
