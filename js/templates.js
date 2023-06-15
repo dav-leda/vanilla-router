@@ -9,6 +9,8 @@ const home = `<h2><u>Routing nativo Web Components</u></h2>`;
 
 // about
 const about = `
+
+  
   <h2><u>Router en JavaScript sin frameworks</u></h2>
   <p>
     Esta es una implementación simple de un router usando <a href="https://developer.mozilla.org/es/docs/Web/API/Web_components" target="_blank">Web Components</a>.

@@ -62,7 +62,7 @@ select {
 }
 
 body {
-  font-family: Ubuntu, Helvetica, Arial, sans-serif;
+  font-family: Ubuntu, Avenir, Helvetica, Arial, sans-serif;
   background-color: var(--bg-color);
   color: var(--font-color);
   font-size: calc(1rem + 0.25vh);
@@ -70,7 +70,7 @@ body {
 }
 
 router-view {
-  margin-top: 4rem;
+  color: blue;
 }
 
 
@@ -118,7 +118,7 @@ nav {
   width: 100vw;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 2rem;
   background: rgba(255, 255, 255, 0);
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
   backdrop-filter: blur(5px);
@@ -126,7 +126,7 @@ nav {
   top: 0;
 }
 
-nav > h3 {
+nav > router-link {
   font-size: calc(var(--font-size) * 0.8);
   margin: 2.3rem 0;
   font-weight: bold;
@@ -137,7 +137,6 @@ nav > h3 {
   float: right;
   opacity: 0.9;
 
-  
 }
 
 nav > h3:first-of-type {
