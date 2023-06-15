@@ -52,6 +52,7 @@ class RouterLink extends HTMLElement {
     // Si el path es '/' convertirlo a 'home'
     let template = this.kebabToCamel(path.replace('/', '') || 'home')
 
+    window.scroll(0, 0)
     // Renderizar la vista dentro del elemento <router-view/>
     // Para poder acceder a los templates con window[path]
     // estos deben ser declarados con var, no con const

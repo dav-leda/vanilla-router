@@ -5,26 +5,47 @@
 // usar siempre camelCase
 
 // home
-const home = `<h2><u>Routing nativo Web Components</u></h2>`;
+const home = `
+  <section>
+  <h2><u>Routing nativo usando Web Components</u></h2>
+  <p>
+    Esta aplicación utiliza  <a href="https://developer.mozilla.org/es/docs/Web/API/Web_components" target="_blank">Web Components</a>
+    para generar un ruteo en forma nativa, es decir, sin frameworks.
+    <br><br>
+    El código HTML resultante es muy similar al utilizado por
+    <a href="https://router.vuejs.org/guide/#html" target="_blank">Vue Router</a>:
+    
+    <br><br>
+
+    <img src="https://dav-leda.github.io/api/images/web-components-routing.png" alt="web components" width="500"/>
+  </p>
+  </section>
+`;
 
 // about
 const about = `
 
-  
+  <section>
   <h2><u>Router en JavaScript sin frameworks</u></h2>
   <p>
-    Esta es una implementación simple de un router usando <a href="https://developer.mozilla.org/es/docs/Web/API/Web_components" target="_blank">Web Components</a>.
+    Esta es una implementación simple de un router usando 
+    <a href="https://developer.mozilla.org/es/docs/Web/API/Web_components" target="_blank">Web Components</a>.
     Su funcionalidad es más limitada que la de los routers usados
     en los frameworks de Frontend como Vue.js o React.
-    Por ejemplo, al cliquear en el botón de refresh sobre esta ruta la aplicación se reinicia en la ruta inicial, no en la ruta '/about'.
-    Esto es porque el servidor (por ejemplo, Live Server) no tiene nada para servir en '/about' ya que la ruta fue generada del lado del cliente (Client-Side Rendering) usando JavaScript.
+    Por ejemplo, al cliquear en el botón de refresh sobre esta ruta la aplicación se reinicia en la ruta inicial, 
+    no en la ruta <code>/about</code>.
+    Esto es porque el servidor (por ejemplo, Live Server) no tiene nada para servir en <code>/about</code> 
+    ya que la ruta fue generada del lado del cliente (Client-Side Rendering) usando JavaScript.
     Sin este redireccionamiento a la ruta principal el browser daría un error 404 (Not Found).
     
   </p>
+  </section>
 `;
 
 // howTo
 const howTo = `
+
+  <section>
   <h2><u>Cómo utilizar el Router:</u></h2>
   <p>
     La aplicación utiliza Web Components para generar el ruteo.
@@ -42,7 +63,7 @@ const howTo = `
     debe modificarse este settings de Live Server para que siempre reinicie en home:
     <code>"liveServer.settings.file": "index.html"</code>
   </p>
-
+  </section>
 `;
 
 // test

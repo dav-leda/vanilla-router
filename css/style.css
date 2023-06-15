@@ -14,7 +14,7 @@ ul, ol {
 }
 
 
-html:focus-within {
+html {
   scroll-behavior: smooth;
 }
 
@@ -69,10 +69,6 @@ body {
   transition: all 0.5s ease;
 }
 
-router-view {
-  color: blue;
-}
-
 
 h1 {
   color: var(--heading-color);
@@ -102,9 +98,17 @@ i {
 }
 
 section {
-  width: calc(var(--font-size) * 30);
+  width: calc(var(--font-size) * 24);
   max-width: 1000px;
-  margin: 10rem auto;
+  margin: 8rem auto;
+}
+
+section > p {
+  
+  text-align: justify;
+  text-justify: auto;
+
+  margin-top: 1rem;
 }
 
 article {
@@ -118,7 +122,7 @@ nav {
   width: 100vw;
   list-style-type: none;
   margin: 0;
-  padding: 2rem;
+  padding: 1.4rem 2rem;
   background: rgba(255, 255, 255, 0);
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
   backdrop-filter: blur(5px);
@@ -128,13 +132,12 @@ nav {
 
 nav > router-link {
   font-size: calc(var(--font-size) * 0.8);
-  margin: 2.3rem 0;
+  margin: 2rem 0;
   font-weight: bold;
   text-align: center;
   padding-right: calc(var(--font-size) * 1.5);
   text-decoration: none;
   cursor: pointer;
-  float: right;
   opacity: 0.9;
 
 }
@@ -151,9 +154,9 @@ nav > h3:hover {
   text-decoration: underline;
 }
 
-pre {
+code {
   background-color: rgba(0,0,0,0.05);
-  padding: 0.5rem 2rem;
+  padding: 0.2rem;
   margin: 1rem auto;
   border-radius: 5px;
   font-size: calc(var(--font-size) * 0.6);
