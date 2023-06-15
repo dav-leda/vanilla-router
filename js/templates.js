@@ -17,7 +17,7 @@ const home = `
     
     <br><br>
 
-    <img src="https://dav-leda.github.io/api/images/web-components-routing.png" alt="web components" width="500"/>
+    <img src="https://dav-leda.github.io/api/images/vanilla-router.png" alt="web components" width="500"/>
   </p>
   </section>
 `;
