@@ -32,11 +32,11 @@ const about = `
     <a href="https://developer.mozilla.org/es/docs/Web/API/Web_components" target="_blank">Web Components</a>.
     Su funcionalidad es más limitada que la de los routers usados
     en los frameworks de Frontend como Vue.js o React.
-    Por ejemplo, al cliquear en el botón de refresh sobre esta ruta la aplicación se reinicia en la ruta inicial, 
-    no en la ruta <code>/about</code>.
-    Esto es porque el servidor (por ejemplo, Live Server) no tiene nada para servir en <code>/about</code> 
+    Por ejemplo, al cliquear en el botón de refresh sobre esta ruta
+    se produce un error 404 (Not Found).
+    <br>
+    Esto es porque el servidor no tiene nada para servir en <code>/about</code> 
     ya que la ruta fue generada del lado del cliente (Client-Side Rendering) usando JavaScript.
-    Sin este redireccionamiento a la ruta principal el browser daría un error 404 (Not Found).
     
   </p>
   </section>
