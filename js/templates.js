@@ -5,13 +5,13 @@
 // usar siempre camelCase
 
 // home
-const home = `<h1><u>Vanilla Router</u></h1>`;
+const home = `<h2><u>Routing nativo Web Components</u></h2>`;
 
 // about
 const about = `
   <h2><u>Router en JavaScript sin frameworks</u></h2>
   <p>
-    Esta es una implementación simple de un router en JavaScript.
+    Esta es una implementación simple de un router usando <a href="https://developer.mozilla.org/es/docs/Web/API/Web_components" target="_blank">Web Components</a>.
     Su funcionalidad es más limitada que la de los routers usados
     en los frameworks de Frontend como Vue.js o React.
     Por ejemplo, al cliquear en el botón de refresh sobre esta ruta la aplicación se reinicia en la ruta inicial, no en la ruta '/about'.
