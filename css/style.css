@@ -1,0 +1,59 @@
+
+
+body {
+  font-family: Ubuntu, Helvetica, sans-serif;
+}
+
+nav > a {
+  margin: 1rem;
+  color: rgb(77, 77, 77);
+  text-decoration: none;
+}
+
+router-link {
+  margin: 1rem;
+  color: darkslategrey;
+}
+
+router-view {
+  margin: 1rem;
+}
+
+router-view > h1, h2, h3 {
+  text-align: center;
+}
+
+router-view > p {
+  text-align: justify;
+  padding: 1rem 2rem;
+  line-height: 1.5;
+}
+
+code {
+  font-size: 0.9rem;
+  padding: 2px 4px;
+  border-radius: 2px;
+  background-color: rgb(126, 126, 126);
+  color: white;
+}
+
+header {
+  background-color: #fafafa;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.is-active {
+  color: navy;
+  text-decoration: underline;
+  
+}
+
+.red {
+  color: red;
+}
+
+main {
+  margin: 2rem;
+}
+
