@@ -31,8 +31,11 @@ const about = `
     Esta es una implementación simple de un router usando 
     <a href="https://developer.mozilla.org/es/docs/Web/API/Web_components" target="_blank">Web Components</a>.
     <br>
+    <br>
     Para ver el código pueden acceder al repositorio en
     <a href="https://github.com/dav-leda/vanilla-router" target="_blank">GitHub</a>. 
+    <br>
+    <br>
     Su funcionalidad es más limitada que la de los routers usados
     en los frameworks de Frontend como Vue.js o React.
     Por ejemplo, al cliquear en el botón de refresh sobre esta ruta
