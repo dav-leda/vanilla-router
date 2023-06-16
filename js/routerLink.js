@@ -25,7 +25,7 @@ class RouterLink extends HTMLElement {
     // Renderizar la nueva vista usando los botones de navegacion del browser
     window.onpopstate = () => this.renderContent(this.pathName)
 
-    // Si el servidor se reinicia en un path que no es home, cambiar el pathName a home
+    // Si la app se reinicia en un path que no es home, cambiar el pathName a home
     // De lo contrario renderiza el componente home
     // pero el pathName sigue siendo el anterior (por ejemplo, /about)
     this.pathName != '/' && window.history.pushState({}, '', '/')
